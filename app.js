@@ -8,6 +8,7 @@ connect();
 
 app.use(cors());
 
+
 const postsRouter = require('./routes/post');
 const usersRouter = require('./routes/user');
 const commentsRouter = require('./routes/comment');
